@@ -1,2 +1,3 @@
 # Tech_Tr1be_Website
-DO NOT EDIT!!! TECH TR1BE WEBSITE CODE!!!!
+
+Warning: Website code, do not touch or edit. Will affect website. If changes must occur, see Zach.

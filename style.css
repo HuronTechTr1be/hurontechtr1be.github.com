@@ -1,3 +1,4 @@
+/* For the announcement banner */
 #announcement {
     display: none;
     background-color: white;
@@ -6,6 +7,7 @@
     margin-bottom: 10px;
 }
 
+/* For the navigation menu */
 #navbar {
     background-color: black;
     color: white;
@@ -17,6 +19,7 @@
     align-items: center;
 }
 
+/* For banners */
 #banner {
     background-image: url(GlobalImages/BannerImage.png);
     background-position: center;
@@ -30,6 +33,7 @@
     color: white;
 }
 
+/* For most headers on pages */
 #standardContent {
     background-color: red;
     padding: 20px;
@@ -37,6 +41,16 @@
     font-family: Bitter;
 }
 
+/* For content that includes an image of some sort, use #regContent */
+#regContent {
+    background-color: red;
+    padding: 20px;
+    margin: -20px;
+    font-family: Bitter;
+    display: flex;
+}
+
+/* Styled Button */
 .styled {
     border: 0;
     line-height: 2.5;

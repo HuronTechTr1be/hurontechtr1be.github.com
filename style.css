@@ -54,12 +54,14 @@
 }
 
 /* For Common Content*/
-.carousel-container {
+.container {
     background-color: red;
+    width: 50px;
   }
   
   .carousel-item {
     background-color: red;
+    width: 50px;
   } 
 
 /* Styled Button */

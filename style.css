@@ -150,7 +150,3 @@ nav li ul li {
 nav li ul li:hover ul {
     visibility: visible;
 }
-
-nav li ul li:hover {
-    visibility: visible;
-}

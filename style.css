@@ -132,17 +132,25 @@ nav li ul {
 }
 
 nav li:hover ul {
-    visibility: visible;    
+    visibility: visible;
 }
 
 nav li ul li {
     width: 200px;
     height: 40px;
     padding: 10px;
-    margin: 0;
+    margin-top: 5%;
     background: black;
     font-size: 18px;
     text-align: left;
     display: flex;
     flex-direction: column;
+}
+
+nav li ul li:hover ul {
+    visibility: visible;
+}
+
+nav li ul li:hover {
+    visibility: visible;
 }

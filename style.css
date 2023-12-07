@@ -12,7 +12,7 @@
 #navbar {
     background-color: black;
     color: white;
-    padding: 30px;
+    padding: 20px;
     margin: -20px;
     font-family: Bitter;
     font-size: 20px;
@@ -57,12 +57,12 @@
 .container {
     background-color: red;
     width: 50px;
-  }
-  
-  .carousel-item {
+}
+
+.carousel-item {
     background-color: red;
     width: 50px;
-  } 
+}
 
 /* Styled Button */
 .styled {
@@ -97,4 +97,52 @@
     box-shadow:
         inset -2px -2px 3px rgba(255, 255, 255, 0.6),
         inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Nagivation Design */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+nav li {
+    position: relative;
+}
+
+nav li ul {
+    position: absolute;
+    top: 0%;
+    left: 100;
+    visibility: hidden;
+}
+
+nav li:hover ul {
+    visibility: visible;    
+}
+
+nav li ul li {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin: 0;
+    background: black;
+    font-size: 18px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }

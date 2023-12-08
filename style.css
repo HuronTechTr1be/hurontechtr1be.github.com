@@ -139,7 +139,7 @@ a {
 /* Style the a element on hover */
 a:hover {
     /* Change the background color */
-    background: #111;
+    color: #ff0505;
 }
 
 /* Style the nested ul element */

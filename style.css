@@ -100,53 +100,100 @@
 }
 
 /* Nagivation Design */
-nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-}
-
-nav a:hover {
-    color: yellow;
-}
-
-nav li {
-    position: relative;
-}
-
-nav li ul {
+nav {
+    /* Position it absolutely to the right */
     position: absolute;
-    top: 0%;
-    left: 100;
-    visibility: hidden;
+    right: 10px;
+    /* Remove the default margin and padding */
+    margin: 0;
+    padding: 0;
 }
 
-nav li:hover ul {
-    visibility: visible;
+/* Style the ul element */
+ul {
+    /* Remove the default list style */
+    list-style: none;
+    /* Remove the default margin and padding */
+    margin: 0;
+    padding: 0;
 }
 
-nav li ul li {
-    width: 200px;
-    height: 40px;
+/* Style the li element */
+li {
+    /* Display it as an inline-block element */
+    display: inline-block;
+    /* Add some padding */
     padding: 10px;
-    margin-top: 5%;
-    background: black;
-    font-size: 18px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
 }
 
-nav li ul li:hover ul {
-    visibility: visible;
+/* Style the a element */
+a {
+    /* Remove the default text decoration */
+    text-decoration: none;
+    /* Add some color */
+    color: white;
+    /* Add some padding */
+    padding: 10px;
+}
+
+/* Style the a element on hover */
+a:hover {
+    /* Change the background color */
+    background: #111;
+}
+
+/* Style the nested ul element */
+ul ul {
+    /* Position it absolutely to the bottom of the parent li element */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* Hide it by default */
+    display: none;
+    /* Add some width */
+    width: 200px;
+    /* Add a background color */
+    background-color: #000;
+    /* Increase Padding */
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Style the nested li element */
+ul ul li {
+    /* Display it as a block element */
+    display: block;
+    /* Remove the padding */
+    padding: 0;
+}
+
+/* Style the nested a element */
+ul ul a {
+    /* Remove the padding */
+    padding: 0;
+}
+
+/* Show the nested ul element on hover */
+ul li:hover>ul {
+    /* Change the display to block */
+    display: block;
+}
+
+/* Style the nested nested ul element */
+ul ul ul {
+    /* Position it absolutely to the right of the parent li element */
+    position: absolute;
+    top: 0;
+    left: 100%;
+    /* Hide it by default */
+    display: none;
+    /* Add some width */
+    width: 200px;
+}
+
+/* Show the nested nested ul element on hover */
+ul ul li:hover>ul {
+    /* Change the display to block */
+    display: block;
 }

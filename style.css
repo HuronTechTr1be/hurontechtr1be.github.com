@@ -1,3 +1,4 @@
+/*#region Working CSS*/
 /* For the announcement banner */
 #announcement {
     display: none;
@@ -196,4 +197,12 @@ ul ul ul {
 ul ul li:hover>ul {
     /* Change the display to block */
     display: block;
+}
+
+/*#endregion Working Code - Add More Blow*/
+
+#footer{
+    background-color: red;
+    font-family: Bitter;
+    font-size: 12px;
 }

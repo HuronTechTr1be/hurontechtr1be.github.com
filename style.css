@@ -100,6 +100,7 @@
         inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
+
 /* Nagivation Design */
 nav {
     /* Position it absolutely to the right */
@@ -199,10 +200,24 @@ ul ul li:hover>ul {
     display: block;
 }
 
-/*#endregion Working Code - Add More Blow*/
-
 #footer{
     background-color: red;
     font-family: Bitter;
     font-size: 12px;
+}
+/*#endregion Working Code - Add More Blow*/
+
+/*Video Container CSS*/
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 59%; /* for 16:9 aspect ratio */
+    padding-left: 30px;
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
